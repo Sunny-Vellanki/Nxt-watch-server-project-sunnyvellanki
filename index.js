@@ -143,7 +143,7 @@ app.get("/trendingvideos", async (req, res) => {
     }
   });
 
-  // api to get saved videos
+  // api to get saved videosh
 app.get("/savedvideos", async (req, res) => {
     try {
       const savedVideos = await Videos.find({ savedStatus: "Saved" });
